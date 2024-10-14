@@ -1,0 +1,70 @@
+<html>
+<head>
+	<script>
+
+	</script>
+</head>
+<body bgcolor="SKYBLUE">
+	<form>
+
+		<center>
+			
+			<select name="Medicine" value="Medicine">
+			<option value="Medicine">Medicine  </option> 
+			<option value="Adderall">Adderall  </option> 
+			<option value="Alprazolam"> Alprazolam </option> 
+			<option value="Amitriptyline"> Amitriptyline </option> 
+			<option value="Alprazolam"> Alprazolam </option> 
+			<option value="Amoxicillin"> Amoxicillin </option> 
+			<option value="Ativan"> Ativan </option> 
+			<option value="Atorvastatin"> Atorvastatin </option> 
+			<option value="Anacine"> Anacine </option> 
+			<option value="Zoloft"> Zoloft </option> 
+			</select>
+
+			
+
+			<select name="Syrups">
+			<option value="RED">Syrups</option> 
+			<option value="GREEN">Actifed  </option> 
+			<option value="BLUE"> Codicough </option> 
+			<option value="BLUE"> Actifed Chesty </option> 
+			<option value="BLUE"> Actifed Dry </option> 
+			<option value="BLUE"> Buckleys DM </option> 
+			<option value="BLUE"> Codral Nightime </option> 
+			<option value="BLUE"> Demazin </option> 
+			<option value="BLUE"> Diphenacough </option> 
+			<option value="BLUE"> Pholcodine BP </option> 
+			<option value="BLUE"> Sudomyl Elixir </option> 
+			</select>
+			
+			<select name="Chocalates">
+			<option value="RED">Chocalates  </option> 
+			<option value="GREEN">Perk  </option> 
+			<option value="BLUE"> Kit-Kat </option> 
+			<option value="BLUE"> Munch </option> 
+			<option value="BLUE"> Dairy Milk </option> 
+			<option value="BLUE"> Temptation </option> 
+			<option value="BLUE"> 5 star </option> 
+			<option value="BLUE"> Silk </option> 
+			<option value="BLUE"> Bubbly </option> 
+			<option value="BLUE"> Dark Chocolates </option> 
+			</select>
+
+			<select name="Salines">
+			<option value="RED">Salines  </option> 
+			<option value="GREEN">GREEN  </option> 
+			<option value="BLUE"> BLUE </option> 
+			</select>
+			
+			<select name="Others">
+			<option value="RED">Others  </option> 
+			<option value="GREEN">GREEN  </option> 
+			<option value="BLUE"> BLUE </option> 
+			</select>
+			
+		</center>
+	</form>
+</body>
+</html>
+

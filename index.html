@@ -1,0 +1,55 @@
+<html>
+<head>
+<center>
+<h2><b><u>WELCOME TO MEDICAL MANAGEMENT SYSTEM</u></b></h2>
+<h3><b><u>LOGIN PAGE</u></b></h3>
+</center>
+
+<script>
+
+function login()
+{
+var n = document.getElementById("n1").value;
+var p = document.getElementById("pp").value;
+
+if(n=="" && p=="")
+{
+alert("PLEASE !! FILL THE FIELDS");
+}
+else if(n=="Sayali" && p=="sayali123")
+{
+open("medicalPage2.html");
+
+//<a href=medicalPage2.html>Medicine</a>
+}
+else
+{
+alert("Login UNSUCCESSFULLY");
+}
+}
+
+</script>
+
+</head>
+<body style="background-color:brown;">
+<center><img src="medical.png" alt="SAYALI" width="300" height="200"></center></b></br>
+
+
+<form name = "LOGIN PAGE">
+<center>
+<font color="white" size "45">Enter the Name = <input type ="text" name="p1"  id="n1"   value""></br></br>
+Enter the password = <input type ="password" name="p2" id="pp"value""></br></br>
+
+
+<input type ="button" onclick = "login()"name="p3" value="LOGIN">
+<input type ="reset" name="p4" value="CLEAR"></br></br>
+
+<a href=forgetp.html> FORGET PASSWORD</a>
+
+
+</center>
+</form>
+</body>
+</html>
+
+
